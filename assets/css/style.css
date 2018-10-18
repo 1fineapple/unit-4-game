@@ -1,0 +1,40 @@
+
+.title {
+font-family: 'Times New Roman', Times, serif;
+font-size: 24px;
+color: lightsalmon;
+background:lavender;
+padding:5px;
+}
+
+.gamerules {
+    position: relative;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornflowerblue;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    width: 350px;
+
+}
+
+#rando-number{
+float: left;
+color: #fff;
+background-color: darkslategray;
+padding: 20px;
+width: 200px;
+text-align: center;
+font-size: 22px;
+
+}
+
+#wins{
+position: relative;
+background-color: darkslategray;
+width: 150px;
+text-align: center;
+font-size: 16px;
+    
+}
+
