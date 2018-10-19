@@ -42,7 +42,7 @@ $("button").click(function(){
     totaltally= 0;
     $(".userscore").text(totaltally);
     totallosses++; 
-    $("#losses").html("losses: " + totallosses);
+    $("#losses").html("losses:  " + totallosses);
     jewelsButton();
     randomNum = Math.floor(Math.random()*(120-19+1)+19);
     $("#rando-number").html(randomNum);
@@ -51,7 +51,7 @@ $("button").click(function(){
 
 if (totaltally === randomNum)  {
     totaltally = 0; 
-    $(".userscore").text("wins: " + totaltally);
+    $(".userscore").text("wins:  " + totaltally);
     totalwins++; 
     $("#wins").html(totalwins);
     jewelsButton();
