@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 var crystaltotalValue =[$("#red"),$("#blue"), $("green"),$("yellow")];
 var red, blue, green, yellow;
+var image = ["assets/images/redjewel","assets/images/bluejewel","assets/images/greenjewel","assets/images/yellowjewel"]
 
 var randomNumber = $("#rando-number");
 var wins = $("#wins");
@@ -56,7 +57,7 @@ $("#green").on("click", function(){
 });
 
 $("#yellow").on("click", function(){
-    totalScore += red;
+    totalScore += yellow;
     console.log(yellow)
     console.log(totalScore);
     checkIfGameOver();
